@@ -7,14 +7,17 @@ import {AdminProfileComponent} from './components/admin-profile/admin-profile.co
 import {BlogsComponent} from './components/blogs/blogs.component';
 import {RegisterComponent} from './components/register/register.component';
 import {LoginComponent} from './components/login/login.component';
+import {PostsComponent} from './components/posts/posts.component';
+
 
 const routes: Routes = [
   { path: '', redirectTo: 'admin-home', pathMatch: 'full' },
   {path: 'admin-home', component: AdminHomeComponent},
   {path:'accounts', component: AccountsComponent},
-  {path:'adds-posts', component: AddPostsComponent},
+  {path:'add-posts', component: AddPostsComponent},
   {path:'blogs', component: BlogsComponent},
   {path: 'admin-profile', component: AdminProfileComponent},
+  {path: 'post', component: PostsComponent},
   {path: 'register', component:RegisterComponent},
   {path: 'login', component:LoginComponent}
 ];

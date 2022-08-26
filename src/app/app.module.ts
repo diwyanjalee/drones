@@ -16,6 +16,8 @@ import { AdminProfileComponent } from './components/admin-profile/admin-profile.
 import { AccountsComponent } from './components/accounts/accounts.component';
 import { AddPostsComponent } from './components/add-posts/add-posts.component';
 import { BlogsComponent } from './components/blogs/blogs.component';
+import { CreateBlogComponent } from './components/create-blog/create-blog.component';
+import { PostsComponent } from './components/posts/posts.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { BlogsComponent } from './components/blogs/blogs.component';
     AdminProfileComponent,
     AccountsComponent,
     AddPostsComponent,
-    BlogsComponent
+    BlogsComponent,
+    CreateBlogComponent,
+    PostsComponent
   ],
   imports: [
     BrowserModule,
